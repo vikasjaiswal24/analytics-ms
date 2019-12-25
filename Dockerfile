@@ -1,5 +1,4 @@
 FROM        java:8
-MAINTAINER  Robert Reiz <reiz@versioneye.com>
 
 ENV M2_HOME /opt/mvn
 ENV M2 /opt/mvn/bin
@@ -19,4 +18,4 @@ WORKDIR /app
 
 EXPOSE 8080
 
-CMD ["java", "-jar", "/app/target/analytics-ms-0.0.1.jar"]
+CMD ["java", "-jar", "/app/target/analytics-ms-0.0.1-spring-boot.jar"]
