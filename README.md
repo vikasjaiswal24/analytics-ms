@@ -108,7 +108,7 @@ Configure the application that way, that the method is executed every 5 seconds 
 
 ## 12. Build the Docker image
 
-Build a Docker image with the application in it and call it `liveperson/spring:0.0.1`. 
+Build a Docker image with the application in it and call it `mycom/spring:0.0.1`. 
 
 ## 13. Run Docker
 
