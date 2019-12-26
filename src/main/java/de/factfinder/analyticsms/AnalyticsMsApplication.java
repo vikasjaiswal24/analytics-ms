@@ -13,7 +13,7 @@ public class AnalyticsMsApplication {
 
 	@RequestMapping(value = "/", method = RequestMethod.GET)
 	String home() {
-		return "Hi Mate. This is the root of all evil!";
+		return "Hey Welcome to the world of Microservices!!!!";
 	}
 
 	public static void main(String[] args) throws Exception {
